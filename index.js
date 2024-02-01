@@ -9,7 +9,7 @@ else if (age >=10 && age < 20) {
     console.log (firstName + 'is a man');
 }
 
-// comment if john drink beer depending on his age
+// comment if john drink beer depending on his age ..
 
 let lastName = 'Peter';
 let underAge = 17
