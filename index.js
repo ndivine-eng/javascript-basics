@@ -36,3 +36,15 @@ switch (job) {
         console.log(firstName + 'does another thing else');   
 
 }
+
+// Function that calculate the sum of two numbers
+
+function sumOfNumbers(x, y) {
+    return (x + y)
+}
+const x = 20;
+const y = 15;
+
+const sum = sumOfNumbers (x, y);
+console.log('The sum of those two numbers is :' + sum);
+
