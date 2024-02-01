@@ -48,3 +48,12 @@ const y = 15;
 const sum = sumOfNumbers (x, y);
 console.log('The sum of those two numbers is :' + sum);
 
+//  The JavaScript program to find the maximum number in an array 
+
+function maxNum (array) {
+    return Math.max.apply(null, array);
+}
+const num = [7, 8, 9, 10, 30, 45];
+const maximumNum = maxNum(num);
+
+console.log('The maximum number in array is: ' + maximumNum);
